@@ -241,7 +241,6 @@
    w[18]=w[33] + w[18];
    w[18]=3.E+0*w[18];
 
-#pragma omp parallel for reduction(+: kernelimag[:4][:4], kernelreal[:4][:4])
 for(int dirac_i_idx=0; dirac_i_idx < 4; dirac_i_idx++){
  for(int dirac_j_idx=0; dirac_j_idx < 4; dirac_j_idx++){
 
