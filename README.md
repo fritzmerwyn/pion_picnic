@@ -20,7 +20,7 @@ On first execution, make sure the parameter
 ```C++
 #define iterate_quark
 ```
-is turned ON (not commented). This will generate a file needed for the iteration/extrapolation of the pion.
+is turned ON (not commented out). This will generate a file needed for the iteration/extrapolation of the pion.
 Once this file is generated the parameter above can be turned off, unless you want to experiment with the numerics. Then you can change the paramters
 ```C++
 #define absciss_points 200
